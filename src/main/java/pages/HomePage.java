@@ -43,4 +43,9 @@ public class HomePage {
         clickLink("File Upload");
         return  new FilePage(driver);
     }
+
+    public  DynamicLoadingPage clickDynamicLoading(){
+        clickLink("Dynamic Loading");
+        return new DynamicLoadingPage(driver);
+    }
 }
